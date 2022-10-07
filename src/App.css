@@ -1,0 +1,22 @@
+.topHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 55px;
+  background-color: #f55a5a;
+}
+
+.topHeader p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+
+.globeIcon{
+    font-size: 30px;
+    color: #ffffff;
+}
