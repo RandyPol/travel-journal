@@ -12,9 +12,9 @@ const Card = ({ cardData }) => {
         <p>
           <FaMapMarkerAlt className='card-locIcon'/> <span className='card-location'>{cardData.location}</span><a href={cardData.googleMapsUrl} className="googleLink">View on Google Maps</a>
         </p>
-        <h2>{cardData.title}</h2>
-        <p>{cardData.startDate}-{cardData.endDate}</p>
-        <p>{cardData.description}</p>
+        <h2 className='card-tittle'>{cardData.title}</h2>
+        <p className='card-dates'>{cardData.startDate}-{cardData.endDate}</p>
+        <p className='card-description'>{cardData.description}</p>
       </div>
     </div>
   )
