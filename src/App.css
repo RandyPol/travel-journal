@@ -16,7 +16,54 @@
   color: #ffffff;
 }
 
-.globeIcon{
-    font-size: 30px;
-    color: #ffffff;
+.globeIcon {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* Card */
+.card--Container {
+  margin-top: 40px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  height: 200px;
+  /* background-color: aqua; */
+}
+.card-img {
+  width: 125px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-locIcon {
+  color: #f55a5a;
+}
+
+.card-location {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: #2b283a;
+}
+
+.googleLink {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #918e9b;
 }
